@@ -19,7 +19,7 @@ This post is mostly about the client, but I will provide a few links to server c
 
 **Ways to start using Secure Web Proxy on client side:**
 
-* Set up per-appilcation proxy
+* Set up per-appilcation proxy. Recommended method.
     * [Google Chrome/Chromium](#google-chromechromium)
     * [Firefox](#firefox)
 
@@ -33,7 +33,7 @@ This post is mostly about the client, but I will provide a few links to server c
     * [Windows 7](#windows-7-system-wide-proxy)
 <!--
 
-    * [Ubuntu 16.04](#ubuntu-16-04-system-wide-proxy)
+    * [Ubuntu 16.04](#ubuntu-1604-system-wide-proxy)
     * [TODO: Android]()
     * [TODO: iOS?]()
 -->
@@ -44,7 +44,7 @@ for browsers or mobile platforms and allow flexible configuration.
     * [On Android](#pac-on-android)
     * [On Windows 7](#pac-on-windows-7)
     * [On macOS](#pac-on-macos)
-    * [On Ubuntu](#pac-on-ubuntu-16-04)
+    * [On Ubuntu](#pac-on-ubuntu-1604)
     * [In Firefox](#pac-in-firefox)
 
 ---
