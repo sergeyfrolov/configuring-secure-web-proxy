@@ -8,11 +8,11 @@ or at <sergey.frolov@colorado.edu>.
 
 This post is mostly about the client, but I will provide a few links to server configuration tutorials.
 
-| Server  | Probing resistance | HTTP/2 | Notes                                                                                                                                                                                          |
+| &nbsp;Server  | &nbsp;Probing resistance | &nbsp;HTTP/2 | &nbsp;Notes                                                                                                                                                                                          |
 |---------|--------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Caddy   |         ✔*         |    ✔   | RECOMMENDED. Configuration is extremely easy, see instruction from Caddy's author Matt Holt in his [blog post on Medium](https://medium.com/@mattholt/private-browsing-without-a-vpn-e91027552700). |
-| Apache2 |          ✕         |    ✕   | See how to configure forward proxy on https://httpd.apache.org/docs/2.2/mod/mod_proxy.html. mod_proxy and http2 do not work together.                                                   |
-| nghttp2 |          ✕         |    ✔   | Could act as frontend to forwadproxy, say squid, see https://github.com/nghttp2/nghttp2/issues/547                                                                                                        |                                                                                 |
+| Caddy   |     &nbsp;✔*        | &nbsp;✔   | &nbsp;RECOMMENDED. Configuration is extremely easy, see instruction from Caddy's author Matt Holt in his [blog post on Medium](https://medium.com/@mattholt/private-browsing-without-a-vpn-e91027552700). |
+| Apache2 |     &nbsp;✕         | &nbsp;✕   | &nbsp;See how to configure forward proxy on https://httpd.apache.org/docs/2.2/mod/mod_proxy.html. mod_proxy and http2 do not work together.                                                   |
+| nghttp2 |     &nbsp;✕         | &nbsp;✔   | &nbsp;Could act as frontend to forwadproxy, say squid, see https://github.com/nghttp2/nghttp2/issues/547                                                                                                        |                                                                                 |
 
 \* Probing resistance in Caddy Web Server is experimental
 
@@ -31,8 +31,8 @@ This post is mostly about the client, but I will provide a few links to server c
 * Set up system-wide proxy. Most browsers use system proxy by default.
 
     * [Windows 7](#windows-7-system-wide-proxy)
+    
 <!--
-
     * [Ubuntu 16.04](#ubuntu-1604-system-wide-proxy)
     * [TODO: Android]()
     * [TODO: iOS?]()
