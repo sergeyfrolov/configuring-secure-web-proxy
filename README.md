@@ -1,4 +1,4 @@
-The post is under continious construction, last update: November 9, 2017.  
+The post is under continious construction, last update: November 22, 2017.  
 If you have any suggestions or feedback, you are very welcome to contact me using [github issues](https://github.com/sergeyfrolov/configuring-secure-web-proxy/issues),
 or at <sergey.frolov@colorado.edu>.
 
