@@ -28,9 +28,11 @@ This post is mostly about the client, but I will provide a few links to server c
     * [TODO: Safari]()
 -->
 
+<!--
 * Set up system-wide proxy. Most browsers use system proxy by default.
 
     * [Windows 7](#windows-7-system-wide-proxy)
+-->
     
 <!--
     * [Ubuntu 16.04](#ubuntu-1604-system-wide-proxy)
@@ -95,7 +97,9 @@ You can also specify full path to local PAC file.
 
 ## PAC on Windows 7
 
+<!--
 Unless you are sure that you need PAC file, I'd recommend to specify [just a proxy](#windows-7-system-wide-proxy)
+-->
 
 Control Panel → Network and Internet → Internet Options → Connections → LAN settings → Check the "Use automatic configuration script" and specify url or path to your PAC file.   
 
@@ -107,6 +111,7 @@ System Preferences → Network → Choose needed network and click "Advanced..."
 
 System Settings → Network → Network Proxy → Choose method "Authomatic" and specify url or path to your PAC file → Click "Apply System-Wide"
 
+<!--
 # System-wide proxy set up
 
 ## Windows 7 system wide proxy
@@ -114,6 +119,7 @@ System Settings → Network → Network Proxy → Choose method "Authomatic" and
 Control Panel → Network and Internet → Internet Options → Connections → LAN settings → Check "Use a proxy server..." and paste your "https://yourserver.com" in Address and "443" in port. Don't lose "https://" in Address, Windows likes to remove it when you open LAN settings window again.
 
 ![Windows 7 proxy setup](https://sfrolov.io/images/secure-web-proxy/win7-proxy.jpeg)
+-->
 
 <!--
 ## Ubuntu 16.04 system wide proxy
